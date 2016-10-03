@@ -23,6 +23,17 @@ li p.lead {
     color: #F15A24;
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      /*width: 70%;*/
+      margin: auto;
+      width: 590px;
+  }
+
+#myCarousel {
+    margin-top: 65.3px;
+}
+
 /*
  * Start Bootstrap - Landing Page (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -146,7 +157,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-comida.jpg) no-repeat center center;
+    background: url(../img/banner-contact.jpg) no-repeat center center;
     background-size: cover;
 }
 
