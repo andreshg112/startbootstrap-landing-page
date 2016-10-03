@@ -6,6 +6,23 @@
      color: #fff;
  }
 
+ .img-brand {
+     margin-top: -10px;
+     width: 160px;
+}
+
+li p.lead {
+    margin-bottom: 5px !important;
+}
+
+.palabra-clave {
+    color: #F15A24;
+}
+
+.icono-clave {
+    color: #F15A24;
+}
+
 /*
  * Start Bootstrap - Landing Page (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -39,12 +56,17 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/comida-mesa-menos.jpg) no-repeat center center;
+    background: url(../img/mas-cerca-de-tus-clientes.jpg) no-repeat center center;
     background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    .intro-header {
+        padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    }
 }
 
 .intro-message {
